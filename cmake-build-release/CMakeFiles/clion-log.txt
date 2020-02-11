@@ -1,0 +1,52 @@
+/home/mrtheamir/CLion/clion-2019.1/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Release -G "CodeBlocks - Unix Makefiles" /home/mrtheamir/Desktop/libdl
+-- Submodule update
+Entering '../extern/Catch2'
+From https://github.com/catchorg/Catch2
+ * branch              master     -> FETCH_HEAD
+Already up to date.
+Entering '../extern/eigen-git-mirror'
+From https://github.com/eigenteam/eigen-git-mirror
+ * branch                master     -> FETCH_HEAD
+Already up to date.
+Entering '../extern/pybind11'
+From https://github.com/pybind/pybind11
+ * branch            master     -> FETCH_HEAD
+Already up to date.
+Entering '../extern/spdlog'
+From https://github.com/gabime/spdlog
+ * branch            master     -> FETCH_HEAD
+Already up to date.
+-- Performing Test COMPILER_SUPPORT_std=cpp03
+-- Performing Test COMPILER_SUPPORT_std=cpp03 - Success
+-- Standard libraries to link to explicitly: none
+-- Found unsuitable Qt version "" from NOTFOUND
+-- Found unsuitable Qt version "" from NOTFOUND
+-- Qt4 not found, so disabling the mandelbrot and opengl demos
+-- Could NOT find CHOLMOD (missing: CHOLMOD_INCLUDES CHOLMOD_LIBRARIES) 
+-- Could NOT find UMFPACK (missing: UMFPACK_INCLUDES UMFPACK_LIBRARIES) 
+-- Could NOT find SUPERLU (missing: SUPERLU_INCLUDES SUPERLU_LIBRARIES SUPERLU_VERSION_OK) 
+-- A version of Pastix has been found but pastix_nompi.h does not exist in the include directory. Because Eigen tests require a version without MPI, we disable the Pastix backend.
+-- 
+-- Configured Eigen 3.3.90
+-- 
+-- Some things you can do now:
+-- --------------+--------------------------------------------------------------
+-- Command       |   Description
+-- --------------+--------------------------------------------------------------
+-- make install  | Install Eigen. Headers will be installed to:
+--               |     <CMAKE_INSTALL_PREFIX>/<INCLUDE_INSTALL_DIR>
+--               |   Using the following values:
+--               |     CMAKE_INSTALL_PREFIX: /usr/local
+--               |     INCLUDE_INSTALL_DIR:  include/eigen3
+--               |   Change the install location of Eigen headers using:
+--               |     cmake . -DCMAKE_INSTALL_PREFIX=yourprefix
+--               |   Or:
+--               |     cmake . -DINCLUDE_INSTALL_DIR=yourdir
+-- make doc      | Generate the API documentation, requires Doxygen & LaTeX
+-- make blas     | Build BLAS library (not the same thing as Eigen)
+-- make uninstall| Removes files installed by make install
+-- --------------+--------------------------------------------------------------
+-- 
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/mrtheamir/Desktop/libdl/cmake-build-release

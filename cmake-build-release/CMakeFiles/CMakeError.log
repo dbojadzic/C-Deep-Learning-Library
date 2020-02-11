@@ -1,0 +1,119 @@
+Performing C++ SOURCE FILE Test COMPILER_SUPPORT_Wshorten64to32 failed with the following output:
+Change Dir: /home/mrtheamir/Desktop/libdl/cmake-build-release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_a44e7/fast 
+/usr/bin/make -f CMakeFiles/cmTC_a44e7.dir/build.make CMakeFiles/cmTC_a44e7.dir/build
+make[1]: Entering directory '/home/mrtheamir/Desktop/libdl/cmake-build-release/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_a44e7.dir/src.cxx.o
+/usr/bin/c++    -std=c++03 -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -DCOMPILER_SUPPORT_Wshorten64to32 -Werror   -Wshorten-64-to-32 -o CMakeFiles/cmTC_a44e7.dir/src.cxx.o -c /home/mrtheamir/Desktop/libdl/cmake-build-release/CMakeFiles/CMakeTmp/src.cxx
+c++: error: unrecognized command line option '-Wshorten-64-to-32'
+CMakeFiles/cmTC_a44e7.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_a44e7.dir/src.cxx.o' failed
+make[1]: *** [CMakeFiles/cmTC_a44e7.dir/src.cxx.o] Error 1
+make[1]: Leaving directory '/home/mrtheamir/Desktop/libdl/cmake-build-release/CMakeFiles/CMakeTmp'
+Makefile:121: recipe for target 'cmTC_a44e7/fast' failed
+make: *** [cmTC_a44e7/fast] Error 2
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_SUPPORT_Wenumconversion failed with the following output:
+Change Dir: /home/mrtheamir/Desktop/libdl/cmake-build-release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_a9575/fast 
+/usr/bin/make -f CMakeFiles/cmTC_a9575.dir/build.make CMakeFiles/cmTC_a9575.dir/build
+make[1]: Entering directory '/home/mrtheamir/Desktop/libdl/cmake-build-release/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_a9575.dir/src.cxx.o
+/usr/bin/c++    -std=c++03 -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wlogical-op -DCOMPILER_SUPPORT_Wenumconversion -Werror   -Wenum-conversion -o CMakeFiles/cmTC_a9575.dir/src.cxx.o -c /home/mrtheamir/Desktop/libdl/cmake-build-release/CMakeFiles/CMakeTmp/src.cxx
+c++: error: unrecognized command line option '-Wenum-conversion'; did you mean '-Wno-conversion'?
+CMakeFiles/cmTC_a9575.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_a9575.dir/src.cxx.o' failed
+make[1]: *** [CMakeFiles/cmTC_a9575.dir/src.cxx.o] Error 1
+make[1]: Leaving directory '/home/mrtheamir/Desktop/libdl/cmake-build-release/CMakeFiles/CMakeTmp'
+Makefile:121: recipe for target 'cmTC_a9575/fast' failed
+make: *** [cmTC_a9575/fast] Error 2
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_SUPPORT_Wcpp11extensions failed with the following output:
+Change Dir: /home/mrtheamir/Desktop/libdl/cmake-build-release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_de7ae/fast 
+/usr/bin/make -f CMakeFiles/cmTC_de7ae.dir/build.make CMakeFiles/cmTC_de7ae.dir/build
+make[1]: Entering directory '/home/mrtheamir/Desktop/libdl/cmake-build-release/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_de7ae.dir/src.cxx.o
+/usr/bin/c++    -std=c++03 -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wlogical-op -DCOMPILER_SUPPORT_Wcpp11extensions -Werror   -Wc++11-extensions -o CMakeFiles/cmTC_de7ae.dir/src.cxx.o -c /home/mrtheamir/Desktop/libdl/cmake-build-release/CMakeFiles/CMakeTmp/src.cxx
+c++: error: unrecognized command line option '-Wc++11-extensions'; did you mean '-fms-extensions'?
+CMakeFiles/cmTC_de7ae.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_de7ae.dir/src.cxx.o' failed
+make[1]: *** [CMakeFiles/cmTC_de7ae.dir/src.cxx.o] Error 1
+make[1]: Leaving directory '/home/mrtheamir/Desktop/libdl/cmake-build-release/CMakeFiles/CMakeTmp'
+Makefile:121: recipe for target 'cmTC_de7ae/fast' failed
+make: *** [cmTC_de7ae/fast] Error 2
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_SUPPORT_wd981 failed with the following output:
+Change Dir: /home/mrtheamir/Desktop/libdl/cmake-build-release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_68ac7/fast 
+/usr/bin/make -f CMakeFiles/cmTC_68ac7.dir/build.make CMakeFiles/cmTC_68ac7.dir/build
+make[1]: Entering directory '/home/mrtheamir/Desktop/libdl/cmake-build-release/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_68ac7.dir/src.cxx.o
+/usr/bin/c++    -std=c++03 -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wlogical-op -Wdouble-promotion -Wshadow -Wno-psabi -Wno-variadic-macros -Wno-long-long -fno-check-new -fno-common -fstrict-aliasing -DCOMPILER_SUPPORT_wd981 -Werror   -wd981 -o CMakeFiles/cmTC_68ac7.dir/src.cxx.o -c /home/mrtheamir/Desktop/libdl/cmake-build-release/CMakeFiles/CMakeTmp/src.cxx
+c++: error: unrecognized command line option '-wd981'
+CMakeFiles/cmTC_68ac7.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_68ac7.dir/src.cxx.o' failed
+make[1]: *** [CMakeFiles/cmTC_68ac7.dir/src.cxx.o] Error 1
+make[1]: Leaving directory '/home/mrtheamir/Desktop/libdl/cmake-build-release/CMakeFiles/CMakeTmp'
+Makefile:121: recipe for target 'cmTC_68ac7/fast' failed
+make: *** [cmTC_68ac7/fast] Error 2
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_SUPPORT_wd2304 failed with the following output:
+Change Dir: /home/mrtheamir/Desktop/libdl/cmake-build-release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_3b607/fast 
+/usr/bin/make -f CMakeFiles/cmTC_3b607.dir/build.make CMakeFiles/cmTC_3b607.dir/build
+make[1]: Entering directory '/home/mrtheamir/Desktop/libdl/cmake-build-release/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_3b607.dir/src.cxx.o
+/usr/bin/c++    -std=c++03 -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wlogical-op -Wdouble-promotion -Wshadow -Wno-psabi -Wno-variadic-macros -Wno-long-long -fno-check-new -fno-common -fstrict-aliasing -DCOMPILER_SUPPORT_wd2304 -Werror   -wd2304 -o CMakeFiles/cmTC_3b607.dir/src.cxx.o -c /home/mrtheamir/Desktop/libdl/cmake-build-release/CMakeFiles/CMakeTmp/src.cxx
+c++: error: unrecognized command line option '-wd2304'
+CMakeFiles/cmTC_3b607.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_3b607.dir/src.cxx.o' failed
+make[1]: *** [CMakeFiles/cmTC_3b607.dir/src.cxx.o] Error 1
+make[1]: Leaving directory '/home/mrtheamir/Desktop/libdl/cmake-build-release/CMakeFiles/CMakeTmp'
+Makefile:121: recipe for target 'cmTC_3b607/fast' failed
+make: *** [cmTC_3b607/fast] Error 2
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_SUPPORT_STRICTANSI failed with the following output:
+Change Dir: /home/mrtheamir/Desktop/libdl/cmake-build-release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_1a7dd/fast 
+/usr/bin/make -f CMakeFiles/cmTC_1a7dd.dir/build.make CMakeFiles/cmTC_1a7dd.dir/build
+make[1]: Entering directory '/home/mrtheamir/Desktop/libdl/cmake-build-release/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_1a7dd.dir/src.cxx.o
+/usr/bin/c++    -std=c++03 -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wlogical-op -Wdouble-promotion -Wshadow -Wno-psabi -Wno-variadic-macros -Wno-long-long -fno-check-new -fno-common -fstrict-aliasing -DCOMPILER_SUPPORT_STRICTANSI -Werror   -strict-ansi -o CMakeFiles/cmTC_1a7dd.dir/src.cxx.o -c /home/mrtheamir/Desktop/libdl/cmake-build-release/CMakeFiles/CMakeTmp/src.cxx
+c++: error: unrecognized command line option '-strict-ansi'; did you mean '-fstrict-enums'?
+CMakeFiles/cmTC_1a7dd.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_1a7dd.dir/src.cxx.o' failed
+make[1]: *** [CMakeFiles/cmTC_1a7dd.dir/src.cxx.o] Error 1
+make[1]: Leaving directory '/home/mrtheamir/Desktop/libdl/cmake-build-release/CMakeFiles/CMakeTmp'
+Makefile:121: recipe for target 'cmTC_1a7dd/fast' failed
+make: *** [cmTC_1a7dd/fast] Error 2
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_SUPPORT_Qunusedarguments failed with the following output:
+Change Dir: /home/mrtheamir/Desktop/libdl/cmake-build-release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_054b8/fast 
+/usr/bin/make -f CMakeFiles/cmTC_054b8.dir/build.make CMakeFiles/cmTC_054b8.dir/build
+make[1]: Entering directory '/home/mrtheamir/Desktop/libdl/cmake-build-release/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_054b8.dir/src.cxx.o
+/usr/bin/c++    -std=c++03 -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wlogical-op -Wdouble-promotion -Wshadow -Wno-psabi -Wno-variadic-macros -Wno-long-long -fno-check-new -fno-common -fstrict-aliasing -DCOMPILER_SUPPORT_Qunusedarguments -Werror   -Qunused-arguments -o CMakeFiles/cmTC_054b8.dir/src.cxx.o -c /home/mrtheamir/Desktop/libdl/cmake-build-release/CMakeFiles/CMakeTmp/src.cxx
+c++: error: unrecognized command line option '-Qunused-arguments'; did you mean '-Wunused-parameter'?
+CMakeFiles/cmTC_054b8.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_054b8.dir/src.cxx.o' failed
+make[1]: *** [CMakeFiles/cmTC_054b8.dir/src.cxx.o] Error 1
+make[1]: Leaving directory '/home/mrtheamir/Desktop/libdl/cmake-build-release/CMakeFiles/CMakeTmp'
+Makefile:121: recipe for target 'cmTC_054b8/fast' failed
+make: *** [cmTC_054b8/fast] Error 2
+
+Source file was:
+int main() { return 0; }

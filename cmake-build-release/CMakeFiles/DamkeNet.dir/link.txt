@@ -1,0 +1,1 @@
+/usr/bin/c++ -fPIC -Wall -Wextra -O3  -shared  -o DamkeNet.cpython-36m-x86_64-linux-gnu.so CMakeFiles/DamkeNet.dir/src/pybind.cpp.o -flto 

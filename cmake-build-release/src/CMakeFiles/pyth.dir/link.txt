@@ -1,0 +1,1 @@
+/usr/bin/c++ -fPIC -Wall -Wextra -O3  -shared  -o pyth.cpython-36m-x86_64-linux-gnu.so CMakeFiles/pyth.dir/notebook.cpp.o -flto 

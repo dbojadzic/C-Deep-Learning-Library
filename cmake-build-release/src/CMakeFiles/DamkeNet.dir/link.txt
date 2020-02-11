@@ -1,0 +1,1 @@
+/usr/bin/c++  -Wall -Wextra -O3   CMakeFiles/DamkeNet.dir/main.cpp.o CMakeFiles/DamkeNet.dir/net.cpp.o CMakeFiles/DamkeNet.dir/__/tests/FeedForward.cpp.o CMakeFiles/DamkeNet.dir/Layer.cpp.o  -o DamkeNet 
